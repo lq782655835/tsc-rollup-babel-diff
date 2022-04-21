@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // 模块规范设置
+    "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
+    // 目标编译
+    "target": "esnext" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
+
+    "outDir": "dist/tsc",
+
+    "allowJs": false,
+    "baseUrl": "./",
+    "rootDir": "tsc",
+
+    // Ensure that .d.ts files are created by tsc, but not .js files
+    "declaration": true,
+    // "emitDeclarationOnly": true,
+    // Ensure that Babel can safely transpile files in the TypeScript project
+    "isolatedModules": true
+  }
+}
